@@ -1,3 +1,7 @@
+/**
+ * Created by Bartek on 08/09/2017.
+ */
+
 package com.truck.master;
 
 import com.badlogic.gdx.Gdx;
@@ -5,11 +9,6 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
-
-/**
- * Created by Bartek on 08/09/2017.
- */
 
 class GraphicsManager {
 
@@ -39,7 +38,6 @@ class GraphicsManager {
         camera.setToOrtho(false, 800, 480);
         batch = new SpriteBatch();
     }
-
 
     public int update()
     {

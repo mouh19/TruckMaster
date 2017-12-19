@@ -2,7 +2,6 @@
  * Created by Bartek on 08/09/2017.
  */
 
-
 package com.truck.master;
 
 import com.badlogic.gdx.graphics.Camera;
@@ -11,8 +10,8 @@ import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TiledMapRenderer;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-
 import java.util.Random;
+
 
 class MapManager {
 

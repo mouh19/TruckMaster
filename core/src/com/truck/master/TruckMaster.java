@@ -9,7 +9,6 @@ import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 
 public class TruckMaster extends ApplicationAdapter {
 
-
 	GraphicsManager gfx;
 	MapManager map;
 
@@ -27,13 +26,15 @@ public class TruckMaster extends ApplicationAdapter {
 	public void render () {
 		gfx.update();
 
-		//if (Gdx.input.isTouched())
-		//{
-		//	Vector3 touchPos = new Vector3();
-		//	touchPos.set(Gdx.input.getX(), Gdx.input.getY(), 0);
-		//	camera.unproject(touchPos);
-		//	truck.x = touchPos.x - 20/2;
-		//}
+		*/
+		if (Gdx.input.isTouched())
+		{
+			Vector3 touchPos = new Vector3();
+			touchPos.set(Gdx.input.getX(), Gdx.input.getY(), 0);
+			camera.unproject(touchPos);
+			truck.x = touchPos.x - 20/2;
+		}
+		*/
 	}
 	
 	@Override
